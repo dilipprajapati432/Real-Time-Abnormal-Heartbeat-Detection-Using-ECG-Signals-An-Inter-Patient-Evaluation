@@ -1,0 +1,17 @@
+model,aami_class,n_beats,flagged_abnormal,rate,meaning
+Logistic Regression,N,44218,1147,0.9740603374191505,specificity
+Logistic Regression,S,1836,1111,0.605119825708061,sensitivity
+Logistic Regression,V,3219,3153,0.9794967381174278,sensitivity
+Logistic Regression,F,388,115,0.2963917525773196,sensitivity
+Random Forest,N,44218,4947,0.8881224840562667,specificity
+Random Forest,S,1836,1361,0.7412854030501089,sensitivity
+Random Forest,V,3219,3062,0.9512270891581236,sensitivity
+Random Forest,F,388,374,0.9639175257731959,sensitivity
+SVM,N,44218,4085,0.9076168076348998,specificity
+SVM,S,1836,1139,0.6203703703703703,sensitivity
+SVM,V,3219,2656,0.8251009630319975,sensitivity
+SVM,F,388,274,0.7061855670103093,sensitivity
+XGBoost,N,44218,2369,0.9464245329956127,specificity
+XGBoost,S,1836,134,0.07298474945533769,sensitivity
+XGBoost,V,3219,2531,0.786269027648338,sensitivity
+XGBoost,F,388,354,0.9123711340206185,sensitivity

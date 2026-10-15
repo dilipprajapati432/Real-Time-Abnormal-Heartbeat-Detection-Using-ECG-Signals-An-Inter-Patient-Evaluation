@@ -1,0 +1,95 @@
+{
+  "model_name": "Logistic Regression",
+  "selection": "one-standard-error rule on 5-fold patient-grouped CV F1 (DS1): simplest model within 1 SE (0.132) of the best; eligible = ['SVM', 'Logistic Regression', 'Random Forest', 'XGBoost']",
+  "feature_columns": [
+    "rr_prev",
+    "rr_local_avg",
+    "rr_ratio",
+    "amplitude",
+    "local_mean",
+    "local_std"
+  ],
+  "decision_threshold": 0.7160738980022181,
+  "train_records": [
+    "101",
+    "106",
+    "108",
+    "109",
+    "112",
+    "114",
+    "115",
+    "116",
+    "118",
+    "119",
+    "122",
+    "124",
+    "201",
+    "203",
+    "205",
+    "207",
+    "208",
+    "209",
+    "215",
+    "220",
+    "223",
+    "230"
+  ],
+  "test_records": [
+    "100",
+    "103",
+    "105",
+    "111",
+    "113",
+    "117",
+    "121",
+    "123",
+    "200",
+    "202",
+    "210",
+    "212",
+    "213",
+    "214",
+    "219",
+    "221",
+    "222",
+    "228",
+    "231",
+    "232",
+    "233",
+    "234"
+  ],
+  "cv_metrics_ds1": {
+    "accuracy": {
+      "mean": 0.9154444665694899,
+      "std": 0.05482147638664355
+    },
+    "precision": {
+      "mean": 0.7447915104360753,
+      "std": 0.23953461118642908
+    },
+    "recall": {
+      "mean": 0.5574476149287205,
+      "std": 0.34745342577824373
+    },
+    "specificity": {
+      "mean": 0.9427809654535189,
+      "std": 0.07996423330083177
+    },
+    "f1": {
+      "mean": 0.5293379084585311,
+      "std": 0.20179100179204468
+    },
+    "auroc": {
+      "mean": 0.8748918224429219,
+      "std": 0.0917108512978165
+    }
+  },
+  "test_metrics_ds2": {
+    "accuracy": 0.9554038817749859,
+    "precision": 0.7925483812624344,
+    "recall": 0.8040366972477064,
+    "specificity": 0.9740603374191505,
+    "f1": 0.7982512068494398,
+    "auroc": 0.959002311732405
+  }
+}

@@ -1,0 +1,14 @@
+# Tested with Python 3.14.7
+wfdb
+numpy
+pandas
+scikit-learn==1.9.1
+xgboost==3.4.1
+matplotlib
+joblib
+fastapi
+uvicorn
+streamlit
+requests
+scipy
+altair

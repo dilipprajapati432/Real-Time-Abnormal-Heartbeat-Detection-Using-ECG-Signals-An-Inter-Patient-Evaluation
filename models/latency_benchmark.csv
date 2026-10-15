@@ -1,0 +1,2 @@
+model,mean_latency_ms,median_latency_ms,p95_latency_ms,max_latency_ms,throughput_per_sec
+Logistic Regression,0.8604530992452055,0.6947499932721257,1.671105017885564,5.33519999589771,7913896.693748706
