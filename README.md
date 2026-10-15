@@ -14,6 +14,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Dashboard Preview](#-dashboard-preview)
 - [System Architecture](#-system-architecture)
 - [Dataset](#-dataset)
 - [Features](#-features)
@@ -46,6 +47,16 @@ This project implements a **complete, end-to-end pipeline** for real-time cardia
 | Recall (Sensitivity) | **80.4%** |
 | Specificity | **97.4%** |
 | Precision | **79.3%** |
+
+---
+
+## 🖥 Dashboard Preview
+
+The live Streamlit dashboard running on a held-out DS2 patient (record 221, 396 abnormal beats):
+
+![Dashboard Preview](models/figures/dashboard_preview.png)
+
+*Top to bottom: real-time metrics (BPM, decision delay, API latency), abnormal alert banner, recent alerts log, live ECG waveform around the detected beat, beat-by-beat abnormal probability chart (blue = Normal, red = Abnormal), and the prediction data table.*
 
 ---
 
